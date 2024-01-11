@@ -14,7 +14,7 @@ function startGame() {
 
 function clickDisabledButton(button, buttonNumber) {
     emulateButtonHover(button);
-    playAudio(buttonNumber - 1);
+    playAudio(buttonNumber);
 }
 
 function emulateButtonHover(button) {
